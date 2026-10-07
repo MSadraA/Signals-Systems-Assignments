@@ -1,0 +1,14 @@
+figure;
+t = 0:0.001:2*pi;
+x = sin(t);
+plot(t, x);
+hold on;
+y = cos(t);
+plot(t, y, 'r');
+xlabel('Time (s)'); 
+ylabel('Function Value');
+title('Sin and Cos functions');
+legend('Sin', 'Cos');
+xlim([0, 2*pi]);
+ylim([-1.4, 1.4]);
+hold off;
