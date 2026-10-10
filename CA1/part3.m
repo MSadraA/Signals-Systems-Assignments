@@ -60,7 +60,7 @@ function ro=innerProduct(a,b)
 end
 
 %% Problem 3-4: Error Estimation
-SIGMA = [0 0.001 0.01 0.1 1 10];
+SIGMA = [0 0.001 0.01 0.1 1 2 3 4 5 10];
 SIGMA_len = length(SIGMA);
 results = zeros(1, SIGMA_len);
 template = x(1 : tau_len);
